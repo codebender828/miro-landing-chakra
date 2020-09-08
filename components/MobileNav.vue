@@ -2,13 +2,15 @@
   <c-box v-bind="$attrs">
     <c-icon-button
       ref="btnRef"
-      icon="bars"
+      :icon="isOpen ? 'close' : 'bars'"
       variant="link"
       color="inherit"
+      px="3"
+      py="3"
       :_hover="{ color: 'miro.400' }"
       text-decor="none"
       aria-label="Open mobile navbar"
-      @click="isOpen = true"
+      @click="isOpen = !isOpen"
     />
 
     <c-drawer :is-open="isOpen" placement="left" :on-close="close">
