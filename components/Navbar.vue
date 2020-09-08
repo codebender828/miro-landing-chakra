@@ -9,6 +9,7 @@
     py="4"
     bg="white"
     as="nav"
+    z-index="sticky"
   >
     <logo />
     <c-flex w="full">

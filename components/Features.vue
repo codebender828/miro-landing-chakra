@@ -11,10 +11,10 @@
         bg="miro.50"
         color="miro.600"
       >
-        <c-heading as="h3" font-size="md" mb="3">
+        <c-heading as="h3" :font-size="['lg', 'lg', 'md']" mb="3">
           Meetings & Workshops
         </c-heading>
-        <c-text font-size="xs">
+        <c-text :font-size="['md', 'md', 'xs']">
           Run productive, engaging online remote meetings and workshops with your team.
         </c-text>
       </c-pseudo-box>
@@ -27,10 +27,10 @@
         bg="miro.50"
         color="miro.600"
       >
-        <c-heading as="h3" font-size="md" mb="3">
+        <c-heading as="h3" :font-size="['lg', 'lg', 'md']" mb="3">
           Ideation & Brainstorming
         </c-heading>
-        <c-text font-size="xs">
+        <c-text :font-size="['md', 'md', 'xs']">
           Build and develop ideas with distributed teams as if you were in the same room, anywhere, anytime.
         </c-text>
       </c-pseudo-box>
@@ -43,10 +43,10 @@
         bg="miro.50"
         color="miro.600"
       >
-        <c-heading as="h3" font-size="md" mb="3">
+        <c-heading as="h3" :font-size="['lg', 'lg', 'md']" mb="3">
           Research & Design
         </c-heading>
-        <c-text font-size="xs">
+        <c-text :font-size="['md', 'md', 'xs']">
           Co-create and align with cross-functional stakeholders on a collaborative, online whiteboard.
         </c-text>
       </c-pseudo-box>

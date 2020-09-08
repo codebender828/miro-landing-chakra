@@ -7,7 +7,8 @@
       color="inherit"
       :_hover="{ color: 'miro.400' }"
       text-decor="none"
-      @click="isOpen =true"
+      aria-label="Open mobile navbar"
+      @click="isOpen = true"
     />
 
     <c-drawer :is-open="isOpen" placement="left" :on-close="close">

@@ -1,7 +1,7 @@
 <template>
   <c-stack spacing="6" bg-image="url('/banner-desktop.png')" bg-size="1000px auto" bg-repeat="no-repeat" bg-pos="center">
     <c-flex pt="20" justify="center">
-      <c-heading line-height="1" as="h1" font-size="3.8em" :max-w="['90%', '90%', '800px']" text-align="center">
+      <c-heading line-height="1" as="h1" font-size="3em" :max-w="['90%', '90%', '800px']" text-align="center">
         Where remote <br> teams get work done.
       </c-heading>
     </c-flex>
